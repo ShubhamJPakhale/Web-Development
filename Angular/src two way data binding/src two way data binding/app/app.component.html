@@ -1,0 +1,13 @@
+<h1>Data binding using template refrence :- </h1>
+<h1>Data from TS to HTML : {{str}}</h1>
+Enter Your Name : <input #Mydata type="text" placeholder="Enter Your Name" class="name"/>
+<button (click)="Send(Mydata.value)" style="margin-left: 10px;">Send Data</button>
+<h1>Data from HTML to TS : {{name}}</h1>
+<br>
+
+
+<h1>Two Way Data binding in Angular :- </h1>
+Enter Your FullName : 
+<input [(ngModel)]="FullName" type="text" placeholder="Enter Your FullName" class="FullName"/>
+
+<h1>Your FullName is : {{FullName}}</h1>

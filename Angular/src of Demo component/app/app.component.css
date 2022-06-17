@@ -1,0 +1,53 @@
+/* #h1
+{
+    padding: 10px 10px 10px 10px;
+} 
+
+
+#text-shadow: 0 1px 0 rgba(232, 46, 176, 0.4);
+*/
+
+#static_label
+{
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 20px;
+
+}
+
+#text_field
+{
+    border-radius: 6px;
+    width: 300px;
+    height: 20px;
+}
+
+#text_field:hover
+{
+    color: rgb(232, 97, 184);
+    background-color: rgb(178, 231, 193);
+}
+
+select {
+    background: rgba(252, 249, 249, 0.3);
+    color: rgb(3, 1, 1);
+    
+    border-radius: 6px;
+    width: 150px;
+}
+
+select option[value="volvo"] {
+    background: rgba(100, 100, 100, 0.3);
+  }
+  
+  select option[value="saab"] {
+    background: rgba(150, 150, 150, 0.3);
+  }
+  
+  select option[value="mercedes"] {
+    background: rgba(200, 200, 200, 0.3);
+  }
+  
+  select option[value="audi"] {
+    background: rgba(250, 250, 250, 0.3);
+  }
