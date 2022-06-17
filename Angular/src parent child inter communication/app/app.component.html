@@ -1,0 +1,8 @@
+<h1>Inside Parent Component</h1>
+<!-- mygift is parent to child communication
+While Action is event emitter and it emits message from child to parent by creating object named action
+and when we press button we get event performed and then after that we get message from child to parent
+that action is performed and child to parent communication is happened -->
+<app-child [mygift]="gift" (Action)="giftfromchild=$event"></app-child> 
+
+<h2>Gift from child to parent: {{giftfromchild}}</h2>
