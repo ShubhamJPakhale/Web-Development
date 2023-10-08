@@ -16,10 +16,7 @@ app.get("", (req, res) => {
 
 // below url is mongoose url from mongodb site
 
-//database ="mongodb+srv://client:client@client.db6nrqq.mongodb.net/?retryWrites=true&w=majority";
-database =
-  "mongodb+srv://shubham:Mahadev123@crud.9xa6hbx.mongodb.net/?retryWrites=true&w=majority";
-
+//database =""
 mongoose
   .connect(database)
   .then(() => {
